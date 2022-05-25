@@ -9,14 +9,16 @@
 </p>
 
 <p align="center">
-  <a href="#about">About</a> &#xa0; | &#xa0; 
+  <a href="#about">About</a>
 </p>
 
 <br>
 
 ## About ##
 
-I was bored today so i tried to make a brainfuck interpreter.
+I was bored today so i tried to make a brainfuck interpreter. Not entirely sure if it counts as an interpreter.
+
+It can be compiled to be used through a CLI.
 
 One version uses arrays exclusively, the other uses pointers.
 
