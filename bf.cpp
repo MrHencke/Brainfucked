@@ -70,6 +70,11 @@ void interpret(string instructions)
         case '.':
             std::cout << tape[index];
             break;
+        case ',':
+            std::cin >> tape[index];
+            break;
+        default:
+            break;
         }
     }
 }

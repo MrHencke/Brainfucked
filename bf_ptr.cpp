@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         std::cout << "Please input a file to be interpreted";
         return 0;
     }
-    
+
     string instructions = getFileContents(argv[1]);
     interpret(instructions);
     return 0;
@@ -74,6 +74,11 @@ void interpret(string instructions)
             continue;
         case '.':
             std::cout << *pt;
+            break;
+        case ',':
+            std::cin >> *pt;
+            break;
+        default:
             break;
         }
         ptt++;
