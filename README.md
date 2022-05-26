@@ -16,9 +16,6 @@
 
 ## About ##
 
-I was bored today so i tried to make a brainfuck interpreter. Not entirely sure if it counts as an interpreter.
+I was bored today so i tried to make a brainfuck interpreter in C++. Not entirely sure if it counts as an interpreter.It can be compiled to be used through a CLI.
 
-It can be compiled to be used through a CLI.
-
-One version uses arrays exclusively, the other uses pointers.
-
+I also made one in Haskell with my limited knowledge, if i knew anything about ASTs and more syntax it would probably be less disgusting.
